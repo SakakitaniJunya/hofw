@@ -8,7 +8,7 @@ local opts = { noremap = true, silent = true }
 
 -- プラグイン: NERDTree
 -- リーダーキー + n で NERDTree をトグル
-keymap.set("n", "<leader>n", ":NeoTree<CR>", opts)
+keymap.set("n", "<leader>n", ":Neotree<CR>", opts)
 
 -- プラグイン: vim-airline
 -- Ctrl + p と Ctrl + t でタブを切り替え
