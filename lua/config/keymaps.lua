@@ -91,8 +91,12 @@ keymap.set("n", "sl", "<C-w>l")
 keymap.set("n", "<C-w><left>", "<C-w><")
 keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
-keymap.set("n", "<C-w><down>", "<C-w>-")
 
+keymap.set("n", "<C-w><down>", "<C-w>-")
+-- Copilot
+keymap.set("n", "<leader>ce", "<cmd>Copilot enable<cr>", { desc = "Copilot Enable" })
+keymap.set("n", "<leader>cd", "<cmd>Copilot disable<cr>", { desc = "Copilot Disable" })
+keymap.set("n", "<leader>cs", "<cmd>Copilot status<cr>", { desc = "Copilot Status" })
 -- 診断
 --keymap.set("n", "<C-j>", function()
 --   diagnostic.goto_next()
